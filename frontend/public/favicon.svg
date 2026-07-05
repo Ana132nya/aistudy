@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <!-- Core Brand Gradient -->
+    <linearGradient id="qGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8627ff" />
+      <stop offset="100%" stop-color="#27d8ff" />
+    </linearGradient>
+    <!-- Subtle Inner Shadow/Glow -->
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Sleek Dark Container -->
+  <rect width="32" height="32" rx="8" fill="#040508" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+  
+  <!-- Stylized Quantum "Q" logo -->
+  <g transform="translate(1, 1)">
+    <!-- Main O-ring of the Q -->
+    <path d="M 15 6 C 10.029 6 6 10.029 6 15 C 6 19.971 10.029 24 15 24 C 17.18 24 19.176 23.218 20.734 21.918 L 23 24.184 L 24.184 23 L 21.918 20.734 C 23.218 19.176 24 17.18 24 15 C 24 10.029 19.971 6 15 6 Z M 15 9.5 C 18.038 9.5 20.5 11.962 20.5 15 C 20.5 18.038 18.038 20.5 15 20.5 C 11.962 20.5 9.5 18.038 9.5 15 C 9.5 11.962 11.962 9.5 15 9.5 Z" 
+          fill="url(#qGrad)" 
+          filter="url(#glow)" />
+    
+    <!-- Tail accent of the Q -->
+    <path d="M 18.5 18.5 L 23.5 23.5 L 24.5 22.5 L 19.5 17.5 Z" fill="#27d8ff" filter="url(#glow)" />
+  </g>
+</svg>

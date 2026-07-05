@@ -1,0 +1,28 @@
+{
+  "totalDocuments": 2,
+  "totalNotes": 1,
+  "totalQuizzes": 0,
+  "totalFlashcards": 0,
+  "flashcardsMastered": 0,
+  "averageQuizScore": 0,
+  "studyStreak": 1,
+  "lastActive": "2026-07-05T08:19:03.188Z",
+  "historyLog": [
+    {
+      "date": "2026-07-05",
+      "action": "Generated Notes",
+      "details": "Created comprehensive notes for \"IEM-LECTURER-NOTES\""
+    },
+    {
+      "date": "2026-07-05",
+      "action": "Uploaded Document",
+      "details": "Uploaded and analyzed \"IEM-LECTURER-NOTES\" (492k characters)"
+    },
+    {
+      "date": "2026-07-05",
+      "action": "Uploaded Document",
+      "details": "Uploaded and analyzed \"Resume - Ayush Singh\" (1k characters)"
+    }
+  ],
+  "totalQuizAttempts": 0
+}
